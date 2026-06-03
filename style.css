@@ -32,9 +32,10 @@ header{
 
 nav a{
     text-decoration:none;
-    margin-left:25px;
+    margin-left:35px;
     color:#0E3A73;
-    font-weight:600;
+    font-weight:700;
+    font-size:1.2rem;
 }
 
 .hero{

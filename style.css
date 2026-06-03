@@ -44,7 +44,17 @@ nav a{
     align-items:center;
     text-align:center;
     padding:40px;
-    background:linear-gradient(135deg,#0E3A73,#1F5DAA);
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+    url('images/tecnico.png');
+
+    background-size:cover;
+    background-position:center;
+
     color:white;
 }
 

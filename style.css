@@ -200,3 +200,53 @@ h2{
 .formulario button:hover{
     background:#1F5DAA;
 }
+#mision-vision{
+    padding:80px 10%;
+    background:#ffffff;
+    text-align:center;
+}
+
+#mision-vision h2{
+    color:#0E3A73;
+    margin-bottom:50px;
+    font-size:2.5rem;
+}
+
+.mv-container{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.mv-card{
+    flex:1;
+    min-width:300px;
+    max-width:500px;
+    background:#f5f7fa;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.mv-card:hover{
+    transform:translateY(-5px);
+}
+
+.mv-card h3{
+    color:#D4A017;
+    margin-bottom:20px;
+    font-size:1.8rem;
+}
+
+.mv-card p{
+    line-height:1.8;
+    color:#555;
+}
+.frase-hermo{
+    margin-top:50px;
+    font-size:1.2rem;
+    font-weight:600;
+    color:#0E3A73;
+}

@@ -250,3 +250,17 @@ h2{
     font-weight:600;
     color:#0E3A73;
 }
+.valores{
+    list-style:none;
+    padding:0;
+    margin-top:15px;
+}
+
+.valores li{
+    padding:10px;
+    margin:8px 0;
+    background:#ffffff;
+    border-left:4px solid #D4A017;
+    border-radius:6px;
+    font-weight:600;
+}

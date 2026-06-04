@@ -264,3 +264,38 @@ h2{
     border-radius:6px;
     font-weight:600;
 }
+.servicios-grid{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.servicio-card{
+    flex:1;
+    min-width:320px;
+    max-width:420px;
+
+    background:#fff;
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    text-align:left;
+}
+
+.servicio-card h3{
+    color:#0E3A73;
+    margin-bottom:20px;
+}
+
+.servicio-card ul{
+    padding-left:20px;
+}
+
+.servicio-card li{
+    margin-bottom:12px;
+    line-height:1.6;
+}

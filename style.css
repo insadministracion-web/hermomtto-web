@@ -343,9 +343,21 @@ h2{
     line-height:1.6;
 }
 .experiencia{
-    margin-top:50px;
-    font-size:1.1rem;
+    margin-top:70px;
+    padding:30px 40px;
+
+    background:#0E3A73;
+    color:white;
+
+    border-radius:15px;
+
+    font-size:1.4rem;
     font-weight:600;
-    color:#0E3A73;
+
     text-align:center;
+    line-height:1.8;
+
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
 }

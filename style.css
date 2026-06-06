@@ -386,3 +386,29 @@ h2{
     line-height:2;
     color:#444;
 }
+.estadisticas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.stat{
+    background:#0B3D91;
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.stat h3{
+    font-size:2.2rem;
+    margin-bottom:10px;
+    color:#D4A017;
+}
+
+.stat p{
+    font-size:1rem;
+    line-height:1.6;
+}

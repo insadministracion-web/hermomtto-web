@@ -361,3 +361,28 @@ h2{
     margin-left:auto;
     margin-right:auto;
 }
+.nosotros{
+    padding:100px 10%;
+    text-align:center;
+}
+
+.nosotros h2{
+    font-size:2.8rem;
+    color:#0B3D91;
+    margin-bottom:40px;
+}
+
+.nosotros-box{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.nosotros-box p{
+    font-size:1.2rem;
+    line-height:2;
+    color:#444;
+}

@@ -35,7 +35,7 @@ nav a{
     margin-left:35px;
     color:#0E3A73;
     font-weight:700;
-    font-size:1.2rem;
+    font-size:1.4rem;
 }
 
 nav a:hover{
@@ -209,7 +209,8 @@ h2{
 #mision-vision h2{
     color:#0E3A73;
     margin-bottom:50px;
-    font-size:2.5rem;
+    font-size:3rem;
+    font-weight:700;
 }
 
 .mv-container{
@@ -369,7 +370,8 @@ h2{
 }
 
 .nosotros h2{
-    font-size:2.8rem;
+    font-size:3rem;
+    font-weight:700;
     color:#0B3D91;
     margin-bottom:40px;
 }

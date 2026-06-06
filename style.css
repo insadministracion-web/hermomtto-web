@@ -306,7 +306,9 @@ h2{
 
 #proyectos h2{
     color:#0E3A73;
-    margin-bottom:50px;
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:20px;
 }
 
 .galeria{

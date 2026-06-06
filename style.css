@@ -422,3 +422,11 @@ h2{
     color:#555;
     line-height:1.7;
 }
+.subtitulo-proyectos{
+    max-width:900px;
+    margin:0 auto 50px auto;
+    text-align:center;
+    font-size:1.2rem;
+    color:#555;
+    line-height:1.8;
+}

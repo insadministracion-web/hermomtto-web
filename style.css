@@ -501,3 +501,36 @@ h2{
     color:#D4A017;
     margin-bottom:15px;
 }
+#clientes{
+    padding:80px 10%;
+    text-align:center;
+    background:#fff;
+}
+
+#clientes h2{
+    font-size:2.8rem;
+    color:#0E3A73;
+    margin-bottom:50px;
+}
+
+.clientes-grid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:50px;
+}
+
+.clientes-grid img{
+    max-width:180px;
+    max-height:90px;
+    filter:grayscale(100%);
+    opacity:.8;
+    transition:.3s;
+}
+
+.clientes-grid img:hover{
+    filter:none;
+    opacity:1;
+    transform:scale(1.05);
+}

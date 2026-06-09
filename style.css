@@ -440,3 +440,36 @@ h2{
     margin-bottom:20px;
     text-align:center;
 }
+#clientes{
+    text-align:center;
+    padding:80px 10%;
+    background:white;
+}
+
+#clientes h2{
+    font-size:3rem;
+    color:#0E3A73;
+    margin-bottom:50px;
+}
+
+.clientes-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:50px;
+    align-items:center;
+}
+
+.clientes-grid img{
+    height:80px;
+    max-width:180px;
+    object-fit:contain;
+    filter:grayscale(100%);
+    opacity:.8;
+    transition:.3s;
+}
+
+.clientes-grid img:hover{
+    filter:none;
+    opacity:1;
+}

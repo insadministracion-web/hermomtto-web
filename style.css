@@ -534,3 +534,40 @@ h2{
     opacity:1;
     transform:scale(1.05);
 }
+.contacto-grid{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.qr-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.contacto-info{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+.info-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    min-width:250px;
+    text-align:center;
+}
+
+.info-card h3{
+    color:#0E3A73;
+    margin-bottom:10px;
+}

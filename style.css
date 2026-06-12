@@ -542,22 +542,6 @@ h2{
     flex-wrap:wrap;
 }
 
-.qr-box{
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-    text-align:center;
-}
-
-.contacto-info{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
-    margin-bottom:50px;
-}
-
 .info-card{
     background:white;
     padding:25px;

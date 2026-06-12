@@ -131,10 +131,6 @@ h2{
     text-align:center;
 }
 
-#contacto p{
-    margin:15px 0;
-}
-
 .qr{
     width:220px;
     margin-top:20px;
@@ -554,4 +550,45 @@ h2{
 .info-card h3{
     color:#0E3A73;
     margin-bottom:10px;
+}
+.contacto-grid{
+    display:grid;
+    grid-template-columns:1fr 1.2fr 1fr;
+    gap:30px;
+    align-items:start;
+    margin-top:40px;
+}
+
+.contacto-datos{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.qr-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.qr-card h3{
+    color:#0E3A73;
+    margin-top:15px;
+}
+
+.qr{
+    width:220px;
+    max-width:100%;
+    margin:0 auto;
+    display:block;
+}
+
+@media(max-width:900px){
+
+    .contacto-grid{
+        grid-template-columns:1fr;
+    }
+
 }

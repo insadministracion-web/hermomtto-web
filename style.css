@@ -641,3 +641,35 @@ footer p{
 .info-card a:hover{
     color:#0E3A73;
 }
+.bases-operacion{
+    margin-top:50px;
+    text-align:center;
+}
+
+.bases-operacion h3{
+    color:#0E3A73;
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.bases-operacion p{
+    color:#555;
+    margin-bottom:25px;
+    font-size:1.1rem;
+}
+
+.estados-grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.estados-grid span{
+    background:#0E3A73;
+    color:white;
+    padding:12px 20px;
+    border-radius:50px;
+    font-weight:600;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}

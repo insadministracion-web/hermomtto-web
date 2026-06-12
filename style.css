@@ -632,3 +632,12 @@ footer p{
 .subir:hover{
     background:#D4A017;
 }
+.info-card a{
+    color:#222;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.info-card a:hover{
+    color:#0E3A73;
+}

@@ -647,9 +647,10 @@ footer p{
 }
 
 .bases-operacion h3{
+    font-size:3rem;
+    font-weight:700;
     color:#0E3A73;
-    font-size:2rem;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 .bases-operacion p{
@@ -672,4 +673,7 @@ footer p{
     border-radius:50px;
     font-weight:600;
     box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+#clientes{
+    padding-top:120px;
 }

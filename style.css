@@ -592,3 +592,13 @@ h2{
     }
 
 }
+footer{
+    background:#0E3A73;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer p{
+    margin:5px 0;
+}
